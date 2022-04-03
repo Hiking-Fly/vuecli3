@@ -1,13 +1,18 @@
 <template>
-  <div>我是home
-    <router-link to="/home/message">消息</router-link>
-    <router-link to="/home/news">新闻</router-link>
-    <router-view></router-view>
+  <div>
+      <ul>
+          <li>新闻</li>
+          <li>新闻</li>
+          <li>新闻</li>
+          <li>新闻</li>
+          <li>新闻</li>
+      </ul>
   </div>
 </template>
 
 <script>
 export default {
+  name:'HomeNews',
   data () {
     return {
     };
