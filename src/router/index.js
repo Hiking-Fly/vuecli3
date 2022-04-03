@@ -6,6 +6,7 @@ Vue.use(VueRouter)
 
 import Home from '../components/home'
 import About from '../components/about'
+import User from '../components/user'
 const router = new VueRouter({
     //配置路径和组件之间的映射关系
     routes:[
@@ -20,6 +21,9 @@ const router = new VueRouter({
     },{
         path: '/about',
         component:About
+    },{
+        path: '/user/:userId',
+        component: User
     }
 
     ],
