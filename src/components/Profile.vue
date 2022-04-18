@@ -1,11 +1,14 @@
 <template>
-  <div>我是about页面</div>
+  <div>
+    我是档案{{$route.query}}
+  </div>
 </template>
 
 <script>
 export default {
   data () {
     return {
+
     };
   },
   components: {},
